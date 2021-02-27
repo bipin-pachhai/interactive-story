@@ -1,0 +1,45 @@
+body {
+    background: url(../assets/phaseone.gif);
+   background-attachment: fixed; 
+    color: #fffefe;
+  }
+
+h1{
+    width: fit-content;
+    margin-top: -5px;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 40%;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+   
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: 11.5rem;
+    padding: 1rem;
+    background-color: #fffefe;
+
+}
+.question{
+    border-radius: 10px;
+    margin-left: 36%;
+    background-color: darkblue;
+    width: fit-content;
+    margin-top:1rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.button:hover{
+    background-color: chartreuse;
+    transition: ease-out;
+    cursor: pointer;
+    transform: scale(1.5);
+}

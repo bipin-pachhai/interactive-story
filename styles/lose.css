@@ -1,0 +1,32 @@
+body {
+    background: url(../assets/accessdenied.jfif);
+   background-attachment: fixed; 
+    color: #fffefe;
+  }
+span{
+    border-radius: 50%;
+    height: 30px;
+    padding: 5rem;
+    margin: 42vh;
+    margin-left: 43%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: black;
+}
+
+button{
+    border-radius: 50%;
+    margin-top: -1rem;
+    height: 4rem ;
+    width: 10rem;
+    background-color: rgb(255, 0, 0);
+}
+
+button:hover{
+    transition: ease-out;
+    transform: scale(3);
+    color: white;
+    background-color: blue;
+}

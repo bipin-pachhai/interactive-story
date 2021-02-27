@@ -1,0 +1,45 @@
+<html>
+<head>
+<title> Interactive Game </title>
+<link rel="icon" href="assets/logo.png" />
+<link rel ="stylesheet" href="./styles/bruteforce.css" />
+<script>
+    let count = 0;
+    function inputController(){
+        
+    count++;
+    if (input.value === "CSCI-4208"){
+
+    parent.location='success.html';
+    }
+    if(count <=5 && input.value != "CSCI-4208" ){
+        alert(`remaining attempts: ${5-count}`);
+
+    }
+    if(count>=6){
+    parent.location='lose.html';
+    }
+    }
+    </script>
+</head>
+<body>
+    <h1>Hacking- Phase Three</h1>
+    <h2>BRUTE-FORCE ATTACK</h2>
+   
+    <div >
+    <p>
+            Brute-Force it!  Here you will try submitting many passwords or passphrases which make sense with the hint given. 
+            The system algorithm will then generate and check all possible passwords and passphrases based on 
+            what you have entered until the correct one is found.
+            </p>
+      <div class = "container">      
+    <label>Try Password :</label>
+    <input type="password" id='input'>
+    <input type="button"class ="button" value='Submit' onClick="inputController()">
+    <br/> <b>Password Hint:</b> <code>Advanced Web Application; include dash in between</code><br>
+    <code><b>Max attempt:</b> 5</code>
+    </div>
+    </div>
+
+</body>
+</html>

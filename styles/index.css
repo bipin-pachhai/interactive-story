@@ -1,0 +1,59 @@
+body {
+  
+  background: linear-gradient(90deg, #202020 50%, #202020 50%);
+  background-color: #fffefe; 
+  color: #fffefe;
+}
+h1{
+    margin-top: -5px;
+    text-align: center;
+    color: chartreuse;
+    border-bottom: 2px;
+    background-color:brown;
+    border-color:rgb(172, 172, 172) ;
+}
+
+.button{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0px;   
+}
+
+button{
+
+  text-align: center;
+  margin-left: 45%;
+  margin-top: 1rem;
+  height: 3rem;
+  border-radius: 5rem;
+  color: darkblue;
+  
+}
+button:hover{
+    background-color:chartreuse;
+    transition: ease-out;
+    transform: scale(1.5);
+}
+
+video{
+
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+footer{
+    margin-right: 0;
+    color: azure;
+    font-size: medium;
+    
+}

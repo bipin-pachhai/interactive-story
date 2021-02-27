@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(90deg, #202020 50%, #202020 50%);
+    color: #fffefe;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 
+    'header header header header'
+    'main main main main'
+    'bruteforce bruteforce phishing phishing';
+    grid-gap: 3px;
+     padding: 5px;
+}
+
+.grid-container > div {
+       font-size: 20px;
+       background-color: rgba(57, 93, 122, 0.8);
+       
+       
+  }
+ h1{
+     text-align: center;
+     font-size: x-large;
+     color: rgb(221, 20, 20);
+ }
+
+
+.title{
+    grid-area: header;
+    height: 3rem;
+    padding-bottom: 1rem;
+    
+}
+
+.introduction{
+    grid-area: main;
+    text-align: left;
+    padding: 3rem;
+    color: gold;
+}
+
+.bruteforce{
+    grid-area: bruteforce;
+    text-align: left;
+    height: 70vh;
+    padding: 2rem;
+    color: #202020;
+    font-weight: bold;
+}
+
+.phishing{
+    grid-area: phishing ;
+    text-align: left;
+    height: 70vh;
+    padding: 2rem;
+    color: #202020;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+span:hover{
+    transition: ease-out;
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+    transform: scale(1.5);
+    
+}

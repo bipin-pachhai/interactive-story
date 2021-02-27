@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="./styles/phase1.css" />
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <title>Interactive Game</title>
+    <script>
+      function inputController(){
+      if (yes.checked){
+      parent.location='passwordfinder.html';
+      }
+      else{
+      parent.location='phase2-B.html';
+      }
+      }
+      </script>
+  </head>
+  <body>
+    <h1> Hacking -Phase One </h1>
+<p> HERE WE GO! LET'S START WITH THE FIRST PHASE OF HACKING. A QUICK QUESTION???</p>
+<div class="question">
+  <label>Have you been connected to your Neighbour's Wi-Fi before?</label>
+  <br>
+  <input type="radio" id='yes' name='input-name' value='yes'>
+  <label>YES</label>
+  <br>
+  <input type="radio" id='no' name='input-name' value='no'>
+  <label>NO</label>
+  <br>
+  <br>
+  <input type="button" class="button" onClick="inputController()" value='Proceed to Phase Two'>
+  </div>
+  
+
+   
+
+    
+   
+</body>
+</html>

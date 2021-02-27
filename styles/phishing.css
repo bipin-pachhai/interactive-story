@@ -1,0 +1,39 @@
+body {
+  
+    background: linear-gradient(90deg, #202020 50%, #202020 50%);
+    background-color: #fffefe; 
+    color: #fffefe;
+  }
+  h1{
+      margin-top: -5px;
+      text-align: center;
+      color: chartreuse;
+      border-bottom: 2px;
+      background-color:rgb(15, 65, 85);
+      border-color:rgb(172, 172, 172) ;
+  }
+  h2{
+      text-align: center;
+  }
+
+  p {
+    color: red;
+    text-decoration: solid;
+    margin-left: 2rem;
+    margin-top: 7rem;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  a {
+      text-decoration: solid;
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: 100px;
+  }
+
+  a:hover{
+      color: rgb(0, 255, 149);
+      transform:skew(5);
+      
+      
+  }

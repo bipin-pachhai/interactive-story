@@ -1,0 +1,38 @@
+body {
+    background: url(../assets/accessgranted.png);
+   background-attachment: fixed; 
+    color: #fffefe;
+  }
+
+
+  div{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-emphasis: 2px;
+      text-shadow: 1ch;
+      color: gold;
+      text-shadow: #fffefe;
+      padding: 3rem;
+      margin: 30vh;
+      margin-left: 40%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      background-color: black;
+  }
+
+  button{
+      min-width: 200px;
+      height: 3rem;
+      padding: 2px;
+      margin: 30px;
+      background-color: blue;
+      border-radius: 5rem;
+
+  }
+  button:hover{
+    transition: ease-out;
+    background-color: chartreuse;
+    cursor: pointer;
+    transform: scale(1.5);
+  }
